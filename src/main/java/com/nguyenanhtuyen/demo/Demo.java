@@ -22,7 +22,7 @@ public class Demo extends HttpServlet {
 
 		response.setContentType("text/html");
 
-		PrintWriter out = response.getWriter();
+		PrintWriter out = response.getWriter(); //in thong tin ra man hinh
 
 		String name = request.getParameter("name");
 		out.println(name);
